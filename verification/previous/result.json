@@ -1,0 +1,14 @@
+{
+  "date_utc": "2026-11-07",
+  "command": "bash scripts/verify-comparator.sh",
+  "exit_code": 0,
+  "targets": ["Szarek.theorem1", "Szarek.theorem2"],
+  "accepted_kernels": ["con-ron", "nanoda", "Lean default"],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"],
+  "final_message": "Your solution is okay!",
+  "sandbox": "bubblewrap with isolated network namespace and loopback left down",
+  "compatibility_evidence": "bwrap-compatibility/README.md",
+  "log": "../comparator-final.log",
+  "challenge_review": "pending",
+  "repository_name": "pending"
+}

@@ -1,0 +1,170 @@
+name = "szarek_stability"
+version = "0.1.0"
+defaultTargets = ["Challenge", "Solution"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.35.0"
+
+[[lean_lib]]
+name = "Challenge"
+
+[[lean_lib]]
+name = "Solution"
+
+[[lean_lib]]
+name = "Definitions"
+
+[[lean_lib]]
+name = "SharpConstant"
+
+[[lean_lib]]
+name = "FiniteSharpness"
+
+[[lean_lib]]
+name = "Algebra"
+
+[[lean_lib]]
+name = "GammaSpecial"
+
+[[lean_lib]]
+name = "PaddedSharpness"
+
+[[lean_lib]]
+name = "Geometry"
+
+[[lean_lib]]
+name = "StabilityAlgebra"
+
+[[lean_lib]]
+name = "Reductions"
+
+[[lean_lib]]
+name = "BinomialAbs"
+
+[[lean_lib]]
+name = "CaseAlgebra"
+
+[[lean_lib]]
+name = "CosineBeta"
+
+[[lean_lib]]
+name = "CosineDifference"
+
+[[lean_lib]]
+name = "CosineGaussian"
+
+[[lean_lib]]
+name = "EqualSigns"
+
+[[lean_lib]]
+name = "EvenEquality"
+
+[[lean_lib]]
+name = "EvenGamma"
+
+[[lean_lib]]
+name = "EvenGeometry"
+
+[[lean_lib]]
+name = "FangWang"
+
+[[lean_lib]]
+name = "FourierIdentity"
+
+[[lean_lib]]
+name = "GammaBounds"
+
+[[lean_lib]]
+name = "GaussianComparison"
+
+[[lean_lib]]
+name = "GaussianKernel"
+
+[[lean_lib]]
+name = "GaussianTail"
+
+[[lean_lib]]
+name = "HaagerupAnalysis"
+
+[[lean_lib]]
+name = "HaagerupConvexity"
+
+[[lean_lib]]
+name = "HaagerupIntegral"
+
+[[lean_lib]]
+name = "HaagerupLaplace"
+
+[[lean_lib]]
+name = "HaagerupLogDerivative"
+
+[[lean_lib]]
+name = "HaagerupScalar"
+
+[[lean_lib]]
+name = "KhintchineReduction"
+
+[[lean_lib]]
+name = "LemmaThree"
+
+[[lean_lib]]
+name = "MomentBounds"
+
+[[lean_lib]]
+name = "ScalarFourier"
+
+[[lean_lib]]
+name = "TheoremTwoReduction"
+
+[[lean_lib]]
+name = "TrigKernel"
+
+[[lean_lib]]
+name = "WeightedHaagerup"
+
+[[lean_lib]]
+name = "CosineTail"
+
+[[lean_lib]]
+name = "EvenPeriodization"
+
+[[lean_lib]]
+name = "HaagerupEndpoint"
+
+[[lean_lib]]
+name = "LocalCosineIntegral"
+
+[[lean_lib]]
+name = "MainReduction"
+
+[[lean_lib]]
+name = "Periodization"
+
+[[lean_lib]]
+name = "PoweredCosIntegrability"
+
+[[lean_lib]]
+name = "ScaledCosineTail"
+
+[[lean_lib]]
+name = "ScaledGaussianTail"
+
+[[lean_lib]]
+name = "SmallCoefficientsBase"
+
+[[lean_lib]]
+name = "SmallCoefficientsPointwise"
+
+[[lean_lib]]
+name = "SmallerCoefficients"
+
+[[lean_lib]]
+name = "WeightedSigns"
+
+[[lean_lib]]
+name = "HaagerupEvaluation"
+
+[[lean_lib]]
+name = "LemmaThreeFinal"

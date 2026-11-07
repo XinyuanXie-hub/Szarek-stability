@@ -1,0 +1,11 @@
+.lake/
+.DS_Store
+
+.tools/
+DraftChallenge.lean
+paper.pdf
+paper.txt
+
+*.olean
+*.ilean
+*.trace

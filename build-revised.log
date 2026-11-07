@@ -1,0 +1,213 @@
+⚠ [2856/2909] Replayed Definitions
+warning: Definitions.lean: imports `Mathlib.Analysis.SpecialFunctions.Gamma.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Definitions.lean: imports `Mathlib.Algebra.BigOperators.Fin` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Definitions.lean: imports `Mathlib.Data.Fintype.Pi` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2857/2909] Replayed Geometry
+warning: Geometry.lean: imports `Mathlib.Tactic.Linarith` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Geometry.lean: imports `Mathlib.Tactic.Ring` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+info: Geometry.lean:54:0: 'Szarek.topTwo_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Geometry.lean:55:0: 'Szarek.extremizerDistance_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3547/3555] Replayed MomentBounds
+warning: MomentBounds.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3549/3555] Replayed CaseAlgebra
+warning: CaseAlgebra.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: CaseAlgebra.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3550/3555] Replayed SharpConstant
+warning: SharpConstant.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Real` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: SharpConstant.lean: imports `Mathlib.Tactic.Linarith` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: SharpConstant.lean: imports `Mathlib.Tactic.NormNum` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: SharpConstant.lean: imports `Mathlib.Tactic.Ring` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3551/3555] Replayed FiniteSharpness
+warning: FiniteSharpness.lean: imports `Mathlib.Tactic.FinCases` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+info: FiniteSharpness.lean:72:0: 'Szarek.validConstant_le_bestConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: FiniteSharpness.lean:73:0: 'Szarek.fourEqual_four_equality' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3561/3687] Replayed FangWang
+warning: FangWang.lean: imports `Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+info: FangWang.lean:246:0: 'Szarek.haagerupF_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: FangWang.lean:247:0: 'Szarek.stability_large_of_khintchine' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: FangWang.lean:248:0: 'Szarek.large_sum_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: FangWang.lean:249:0: 'Szarek.large_profile_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: FangWang.lean:250:0: 'Szarek.first_two_bound_of_merged_khintchine' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: FangWang.lean:251:0: 'Szarek.head_le_rademacherMean' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: FangWang.lean:252:0: 'Szarek.first_two_merge_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3567/3687] Replayed GammaSpecial
+warning: GammaSpecial.lean: imports `Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: GammaSpecial.lean: imports `Mathlib.Analysis.SpecialFunctions.Gamma.BohrMollerup` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: GammaSpecial.lean: imports `Mathlib.Tactic.NormNum.RealSqrt` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: GammaSpecial.lean: imports `Mathlib.Tactic.Linarith` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: GammaSpecial.lean: imports `Mathlib.Tactic.FieldSimp` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: GammaSpecial.lean: imports `Mathlib.Tactic.Ring` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3569/3687] Replayed Algebra
+warning: Algebra.lean: imports `Mathlib.Basic.Real.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Algebra.lean: imports `Mathlib.Tactic.Linarith` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Algebra.lean: imports `Mathlib.Tactic.FieldSimp` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Algebra.lean: imports `Mathlib.Tactic.Ring` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3572/3687] Replayed FourierIdentity
+warning: FourierIdentity.lean: imports `Mathlib.MeasureTheory.Integral.Bochner.Set` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: FourierIdentity.lean: imports `Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: FourierIdentity.lean: imports `Mathlib.Analysis.SpecialFunctions.ImproperIntegrals` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: FourierIdentity.lean: imports `Mathlib.Tactic.FunProp` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+info: FourierIdentity.lean:116:0: 'Szarek.integrable_fourierKernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: FourierIdentity.lean:117:0: 'Szarek.integral_product_fourier_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3573/3687] Replayed ScalarFourier
+warning: ScalarFourier.lean: imports `Mathlib.Analysis.SpecialFunctions.Gamma.BohrMollerup` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: ScalarFourier.lean: imports `Mathlib.MeasureTheory.Integral.Prod` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: ScalarFourier.lean: imports `Mathlib.Tactic.FieldSimp` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+info: ScalarFourier.lean:151:0: 'Szarek.abs_eq_fourier_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ScalarFourier.lean:152:0: 'Szarek.rademacher_fourier' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3577/3687] Replayed HaagerupAnalysis
+warning: HaagerupAnalysis.lean: imports `Mathlib.Analysis.SpecialFunctions.Gamma.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: HaagerupAnalysis.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: HaagerupAnalysis.lean: imports `Mathlib.Analysis.Convex.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: HaagerupAnalysis.lean: imports `Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: HaagerupAnalysis.lean: imports `Mathlib.Analysis.SpecialFunctions.Trigonometric.DerivHyp` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3578/3687] Replayed HaagerupLogDerivative
+warning: HaagerupLogDerivative.lean: imports `Mathlib.Analysis.SpecialFunctions.Gamma.BohrMollerup` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: HaagerupLogDerivative.lean: imports `Mathlib.Analysis.Convex.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: HaagerupLogDerivative.lean: imports `Mathlib.Analysis.SpecificLimits.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: HaagerupLogDerivative.lean: imports `Mathlib.Topology.Algebra.InfiniteSum.ENNReal` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: HaagerupLogDerivative.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3579/3687] Replayed HaagerupLaplace
+warning: HaagerupLaplace.lean: imports `Mathlib.Analysis.SpecialFunctions.ImproperIntegrals` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: HaagerupLaplace.lean: imports `Mathlib.MeasureTheory.Integral.DominatedConvergence` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3580/3687] Replayed HaagerupConvexity
+warning: HaagerupConvexity.lean: imports `Mathlib.Analysis.Convex.SpecificFunctions.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+info: HaagerupConvexity.lean:91:0: 'Szarek.haagerupF_inverse_convex' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3581/3687] Replayed WeightedHaagerup
+warning: WeightedHaagerup.lean: imports `Mathlib.Analysis.MeanInequalities` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: WeightedHaagerup.lean: imports `Mathlib.Analysis.Convex.Jensen` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3583/3687] Replayed BinomialAbs
+warning: BinomialAbs.lean: imports `Mathlib.Data.Nat.Choose.Sum` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: BinomialAbs.lean: imports `Mathlib.Basic.Real.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: BinomialAbs.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+info: BinomialAbs.lean:60:0: 'Szarek.binomial_abs_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3584/3687] Replayed PaddedSharpness
+info: PaddedSharpness.lean:75:0: 'Szarek.fourEqual_equality' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaddedSharpness.lean:76:0: 'Szarek.fourEqual_unit' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3585/3687] Replayed EqualSigns
+warning: EqualSigns.lean: imports `Mathlib.Algebra.BigOperators.Group.Finset.Powerset` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: EqualSigns.lean: imports `Mathlib.Data.Fintype.Powerset` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: EqualSigns.lean: imports `Mathlib.Data.Nat.Choose.Sum` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+info: EqualSigns.lean:102:0: 'Szarek.rademacherMean_evenEqual_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3586/3687] Replayed KhintchineReduction
+info: KhintchineReduction.lean:103:0: 'Szarek.khintchine_of_haagerup' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: KhintchineReduction.lean:104:0: 'Szarek.abs_coordinate_le_rademacherMean' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3587/3687] Replayed GammaBounds
+warning: GammaBounds.lean: imports `Mathlib.Analysis.SpecialFunctions.Gamma.BohrMollerup` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: GammaBounds.lean: imports `Mathlib.Analysis.SpecificLimits.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+info: GammaBounds.lean:95:4: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: GammaBounds.lean:170:0: 'Szarek.haagerupF_kershaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GammaBounds.lean:171:0: 'Szarek.deriv_log_haagerupF_kershaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GammaBounds.lean:172:0: 'Szarek.tendsto_haagerupF' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GammaBounds.lean:173:0: 'Szarek.haagerupF_sq_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3588/3687] Replayed HaagerupEndpoint
+info: HaagerupEndpoint.lean:75:0: 'Szarek.haagerupF_chord' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HaagerupEndpoint.lean:76:0: 'Szarek.convexOn_inverseFExt' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3589/3687] Replayed HaagerupScalar
+info: HaagerupScalar.lean:28:0: 'Szarek.haagerupF_scalar_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HaagerupScalar.lean:29:0: 'Szarek.haagerupF_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3590/3687] Replayed EvenGamma
+warning: EvenGamma.lean: imports `Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: EvenGamma.lean: imports `Mathlib.Data.Nat.Choose.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: EvenGamma.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+ℹ [3591/3687] Replayed EvenGeometry
+info: EvenGeometry.lean:76:0: 'Szarek.evenEqual_unit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: EvenGeometry.lean:77:0: 'Szarek.evenEqual_argument' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3592/3687] Replayed EvenEquality
+info: EvenEquality.lean:15:0: 'Szarek.theorem2_equality_family' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3662/3687] Replayed HaagerupIntegral
+warning: HaagerupIntegral.lean: imports `Mathlib.Analysis.SpecialFunctions.Trigonometric.Cotangent` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: HaagerupIntegral.lean: imports `Mathlib.Analysis.Calculus.SmoothSeries` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: HaagerupIntegral.lean: imports `Mathlib.Analysis.PSeries` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3663/3687] Replayed Periodization
+warning: Periodization.lean: imports `Mathlib.MeasureTheory.Integral.IntervalIntegral.Periodic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Periodization.lean: imports `Mathlib.MeasureTheory.Integral.DominatedConvergence` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Periodization.lean: imports `Mathlib.Algebra.Group.Subgroup.ZPowers.Lemmas` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3664/3687] Replayed EvenPeriodization
+warning: EvenPeriodization.lean: imports `Mathlib.MeasureTheory.Measure.Lebesgue.Integral` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: EvenPeriodization.lean: imports `Mathlib.Topology.Algebra.InfiniteSum.NatInt` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: EvenPeriodization.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+info: EvenPeriodization.lean:107:0: 'Szarek.integral_periodization_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3665/3687] Replayed PoweredCosIntegrability
+warning: PoweredCosIntegrability.lean: imports `Mathlib.Analysis.Convex.SpecificFunctions.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+info: PoweredCosIntegrability.lean:74:0: 'Szarek.one_sub_rpow_le_max' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PoweredCosIntegrability.lean:75:0: 'Szarek.integrable_poweredCosKernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3666/3687] Replayed LocalCosineIntegral
+warning: LocalCosineIntegral.lean: imports `Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: LocalCosineIntegral.lean: imports `Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+info: LocalCosineIntegral.lean:83:0: 'Szarek.local_cosine_integral_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3670/3687] Replayed CosineBeta
+warning: CosineBeta.lean: imports `Mathlib.Analysis.SpecialFunctions.Gamma.Beta` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: CosineBeta.lean: imports `Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: CosineBeta.lean: imports `Mathlib.MeasureTheory.Integral.IntervalIntegral.IntegrationByParts` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: CosineBeta.lean: imports `Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: CosineBeta.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+info: CosineBeta.lean:100:0: 'Szarek.haagerupF_cosine_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3671/3687] Replayed HaagerupEvaluation
+info: HaagerupEvaluation.lean:74:0: 'Szarek.haagerup_integral_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HaagerupEvaluation.lean:75:0: 'Szarek.weighted_haagerup' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HaagerupEvaluation.lean:76:0: 'Szarek.haagerup_fourth_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HaagerupEvaluation.lean:77:0: 'Szarek.poweredCosKernel_folding' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3672/3687] Replayed GaussianKernel
+warning: GaussianKernel.lean: imports `Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: GaussianKernel.lean: imports `Mathlib.Analysis.Calculus.Deriv.Slope` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: GaussianKernel.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3673/3687] Replayed CosineGaussian
+warning: CosineGaussian.lean: imports `Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: CosineGaussian.lean: imports `Mathlib.Analysis.SpecialFunctions.ExpDeriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: CosineGaussian.lean: imports `Mathlib.Analysis.Calculus.Deriv.MeanValue` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: CosineGaussian.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+info: CosineGaussian.lean:84:0: 'Szarek.cos_le_gaussian' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CosineGaussian.lean:85:0: 'Szarek.positive_cos_sub_gaussian_nonpos' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3674/3687] Replayed GaussianComparison
+warning: GaussianComparison.lean: imports `Mathlib.MeasureTheory.Measure.Lebesgue.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: GaussianComparison.lean: imports `Mathlib.MeasureTheory.Integral.Bochner.Set` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+info: GaussianComparison.lean:62:0: 'Szarek.gaussian_weight_cutoff_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3675/3687] Replayed GaussianTail
+warning: GaussianTail.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: GaussianTail.lean: imports `Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: GaussianTail.lean: imports `Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: GaussianTail.lean: imports `Mathlib.MeasureTheory.Integral.IntegralEqImproper` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+info: GaussianTail.lean:98:0: 'Szarek.integral_gaussian_tail_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GaussianTail.lean:99:0: 'Szarek.integral_gaussian_tail_cutoff_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3676/3687] Replayed CosineDifference
+info: CosineDifference.lean:94:0: 'Szarek.weighted_cosine_gaussian_negative_of_absoluteCos' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3677/3687] Replayed LemmaThree
+info: LemmaThree.lean:102:0: 'Szarek.gaussian_comparison_of_absoluteCos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LemmaThree.lean:103:0: 'Szarek.lemma3_of_absoluteCos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LemmaThree.lean:104:0: 'Szarek.integrable_gaussianComparisonKernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3678/3687] Replayed LemmaThreeFinal
+info: LemmaThreeFinal.lean:53:0: 'Szarek.lemma3' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LemmaThreeFinal.lean:54:0: 'Szarek.weighted_cosine_gaussian_negative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LemmaThreeFinal.lean:55:0: 'Szarek.haagerupF_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LemmaThreeFinal.lean:56:0: 'Szarek.lemma3_of_poweredCos_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3680/3687] Replayed TrigKernel
+warning: TrigKernel.lean: imports `Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TrigKernel.lean: imports `Mathlib.Analysis.SpecialFunctions.Sqrt` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TrigKernel.lean: imports `Mathlib.Analysis.Calculus.Deriv.MeanValue` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TrigKernel.lean: imports `Mathlib.Analysis.Calculus.LHopital` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: TrigKernel.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+info: TrigKernel.lean:181:0: 'Szarek.trigKernel_le_one_third' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3681/3687] Replayed CosineTail
+warning: CosineTail.lean: imports `Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+info: CosineTail.lean:115:0: 'Szarek.foldedCosineTail_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CosineTail.lean:116:0: 'Szarek.cosine_tail_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CosineTail.lean:193:0: 'Szarek.cosine_tail_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3682/3687] Replayed SmallCoefficientsBase
+warning: SmallCoefficientsBase.lean: imports `Mathlib.Analysis.SpecialFunctions.ImproperIntegrals` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3683/3687] Replayed ScaledGaussianTail
+warning: ScaledGaussianTail.lean: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+info: ScaledGaussianTail.lean:121:0: 'Szarek.scaled_gaussian_error_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3684/3687] Replayed ScaledCosineTail
+info: ScaledCosineTail.lean:110:0: 'Szarek.scaled_cosine_tail_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3686/3687] Built Solution (2.7s)
+info: Solution.lean:113:0: 'Szarek.theorem1_recovers_original' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:114:0: 'Szarek.theorem2_recovers_original' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:115:0: 'Szarek.theorem1' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solution.lean:116:0: 'Szarek.theorem2' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3687 jobs).

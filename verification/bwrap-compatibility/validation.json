@@ -1,0 +1,13 @@
+{
+  "parent_netns": "net:[4026532535]",
+  "bwrap-stock": {
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "bwrap: loopback: Failed to create NETLINK_ROUTE socket: Operation not permitted\n"
+  },
+  "bwrap-no-loopback": {
+    "exit_code": 0,
+    "stdout": "{\"netns\": \"net:[4026532610]\", \"netdev\": \"Inter-|   Receive                                                |  Transmit\\n face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed\\n    lo:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0\\n\", \"routes\": \"\", \"home_entries\": [], \"root_entries\": [], \"lo_flags\": 8, \"lo_up\": false, \"caps\": [\"CapPrm:\\t0000000000000000\", \"CapEff:\\t0000000000000000\", \"NoNewPrivs:\\t1\"], \"project_write\": {\"errno\": 30, \"reason\": \"Read-only file system\"}, \"tmp_write\": \"ok\"}\n",
+    "stderr": ""
+  }
+}

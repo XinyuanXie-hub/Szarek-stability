@@ -1,0 +1,41 @@
+import MainReduction
+import HaagerupEvaluation
+import LemmaThreeFinal
+import CosineTail
+import SmallerCoefficients
+
+open scoped BigOperators
+noncomputable section
+namespace Szarek
+
+/-- Paper Theorem 1: inequality, optimality, and the padded four-coordinate equality case. -/
+theorem theorem1 :
+    validConstant bestConstant ∧
+    (∀ c : ℝ, validConstant c → c ≤ bestConstant) ∧
+    (∀ n : ℕ, 4 ≤ n → orderedUnit (fourEqual n) ∧
+      rademacherMean (fourEqual n) =
+        1 / Real.sqrt 2 + bestConstant * extremizerDistance (fourEqual n)) := by
+  have hb := main_bounds_of_analytic_inputs (fun _ hs => haagerup_integral_eval hs)
+    (lemma2_of_cosine_integrals integral_absoluteCosKernel (fun _ hs => cosine_tail_bound hs))
+  refine ⟨hb.1, ?_, ?_⟩
+  · intro c hc
+    exact validConstant_le_bestConstant hc
+  · intro n hn
+    exact ⟨fourEqual_unit hn, fourEqual_equality hn⟩
+
+/-- Paper Theorem 2: both bounds and every padded even-coordinate equality case. -/
+theorem theorem2 :
+    (∀ (n : ℕ), 2 ≤ n → ∀ a : Fin n → ℝ, orderedUnit a → topTwo a ≤ 1 →
+      haagerupF (4 / topTwo a ^ 2) ≤ rademacherMean a ∧
+      (3 : ℝ) / 4 + (1 - topTwo a ^ 2) / 24 ≤ haagerupF (4 / topTwo a ^ 2)) ∧
+    (∀ (n m : ℕ), 2 ≤ m → 2 * m ≤ n →
+      orderedUnit (evenEqual n m) ∧ topTwo (evenEqual n m) ≤ 1 ∧
+      rademacherMean (evenEqual n m) = haagerupF (4 / topTwo (evenEqual n m) ^ 2)) := by
+  have hb := main_bounds_of_analytic_inputs (fun _ hs => haagerup_integral_eval hs)
+    (lemma2_of_cosine_integrals integral_absoluteCosKernel (fun _ hs => cosine_tail_bound hs))
+  exact ⟨hb.2, theorem2_equality_family⟩
+
+#print axioms Szarek.theorem1
+#print axioms Szarek.theorem2
+
+end Szarek

@@ -1,0 +1,29 @@
+{
+  "date_utc": "2026-11-07",
+  "command": "bash scripts/verify-comparator.sh",
+  "exit_code": 0,
+  "targets": [
+    "Szarek.theorem1",
+    "Szarek.theorem2"
+  ],
+  "accepted_kernels": [
+    "con-ron",
+    "nanoda",
+    "Lean default"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "final_message": "Your solution is okay!",
+  "sandbox": "bubblewrap with isolated network namespace and loopback left down",
+  "compatibility_evidence": "bwrap-compatibility/README.md",
+  "log": "../comparator-revised.log",
+  "challenge_review": "approved-for-publication",
+  "repository_name": "XinyuanXie-hub/Szarek-stability",
+  "status": "passed",
+  "revision": "user-requested readability revision",
+  "challenge_sha256": "6ec515296a9659e57b43ccc183c25596deb8c208e5c1bc6ed22ede9f8fd00848",
+  "comparator_sha256": "28d98f2df8790d87a88d794937345c6895b9534ff73038080d9eba6db26bc4f7"
+}

@@ -1,0 +1,24 @@
+project:
+  name: "Stability of Szarek's inequality with best constant"
+  description: "Verification of Theorems 1 and 2 on the stability of Szarek's inequality with best constant, as shown in the source."
+  authors:
+    - "Xinyuan Xie"
+  license: "Apache-2.0"
+  responsible_maintainers:
+    - "Xinyuan Xie"
+
+classification:
+  arxiv: ["math.PR"]
+
+sources:
+  - title: "Stability of Szarek's inequality with best constant"
+    authors: ["Xinyuan Xie"]
+    id: "arXiv:2610.07526v1"
+    relationship: "formalizes"
+
+automation:
+  methods:
+    - method: "agent"
+
+review:
+  status: "agent-reviewed"

@@ -1,0 +1,13 @@
+diff --git a/bubblewrap.c b/bubblewrap.c
+index 9192550..b3c42c0 100644
+--- a/bubblewrap.c
++++ b/bubblewrap.c
+@@ -3205,7 +3205,7 @@ main (int    argc,
+   switch_to_user_with_privs ();
+ 
+   if (opt_unshare_net)
+-    loopback_setup (); /* Will exit if unsuccessful */
++    (void) 0; /* Keep loopback DOWN in the mandatory fresh CLONE_NEWNET namespace. */
+ 
+   ns_uid = opt_sandbox_uid;
+   ns_gid = opt_sandbox_gid;
