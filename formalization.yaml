@@ -19,6 +19,13 @@ sources:
 automation:
   methods:
     - method: "agent"
+      tool_setup: >-
+        AI agents drafted and revised the Lean statement, implemented
+        the proof, and ran verification under human direction.
 
 review:
-  status: "agent-reviewed"
+  status: "self-assessed"
+  notes: >-
+    The project owner reviewed and approved the revised statement and
+    definitions in Challenge.lean. The solution passed Comparator with
+    Lean, NanoDa, and con-ron.
