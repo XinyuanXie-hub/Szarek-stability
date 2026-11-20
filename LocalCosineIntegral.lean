@@ -1,7 +1,11 @@
-import HaagerupAnalysis
-import PoweredCosIntegrability
-import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
+module
+
+public import HaagerupAnalysis
+public import PoweredCosIntegrability
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
+
+@[expose] public section
 
 open MeasureTheory Set Filter
 open scoped Topology

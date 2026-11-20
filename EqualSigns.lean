@@ -1,9 +1,13 @@
-import Definitions
-import BinomialAbs
-import PaddedSharpness
-import Mathlib.Algebra.BigOperators.Group.Finset.Powerset
-import Mathlib.Data.Fintype.Powerset
-import Mathlib.Data.Nat.Choose.Sum
+module
+
+public import Definitions
+public import BinomialAbs
+public import PaddedSharpness
+public import Mathlib.Algebra.BigOperators.Group.Finset.Powerset
+public import Mathlib.Data.Fintype.Powerset
+public import Mathlib.Data.Nat.Choose.Sum
+
+@[expose] public section
 
 open scoped BigOperators
 noncomputable section

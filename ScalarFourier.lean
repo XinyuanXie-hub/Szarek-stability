@@ -1,7 +1,11 @@
-import FourierIdentity
-import Mathlib.Analysis.SpecialFunctions.Gamma.BohrMollerup
-import Mathlib.MeasureTheory.Integral.Prod
-import Mathlib.Tactic.FieldSimp
+module
+
+public import FourierIdentity
+public import Mathlib.Analysis.SpecialFunctions.Gamma.BohrMollerup
+public import Mathlib.MeasureTheory.Integral.Prod
+public import Mathlib.Tactic.FieldSimp
+
+@[expose] public section
 
 open scoped BigOperators
 open MeasureTheory Set

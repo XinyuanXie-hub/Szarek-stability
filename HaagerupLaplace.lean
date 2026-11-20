@@ -1,7 +1,11 @@
-import HaagerupLogDerivative
-import HaagerupAnalysis
-import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
-import Mathlib.MeasureTheory.Integral.DominatedConvergence
+module
+
+public import HaagerupLogDerivative
+public import HaagerupAnalysis
+public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+public import Mathlib.MeasureTheory.Integral.DominatedConvergence
+
+@[expose] public section
 
 open MeasureTheory Set Filter
 open scoped Topology BigOperators

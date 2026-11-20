@@ -1,6 +1,10 @@
-import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
-import Mathlib.Algebra.BigOperators.Fin
-import Mathlib.Data.Fintype.Pi
+module
+
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
+public import Mathlib.Algebra.BigOperators.Fin
+public import Mathlib.Data.Fintype.Pi
+
+@[expose] public section
 
 open scoped BigOperators
 

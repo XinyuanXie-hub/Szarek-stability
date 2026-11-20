@@ -1,5 +1,9 @@
-import HaagerupLaplace
-import Mathlib.Analysis.Convex.SpecificFunctions.Basic
+module
+
+public import HaagerupLaplace
+public import Mathlib.Analysis.Convex.SpecificFunctions.Basic
+
+@[expose] public section
 
 open MeasureTheory Set
 noncomputable section

@@ -1,5 +1,9 @@
-import CosineGaussian
-import Mathlib.Algebra.BigOperators.Fin
+module
+
+public import CosineGaussian
+public import Mathlib.Algebra.BigOperators.Fin
+
+@[expose] public section
 
 open scoped BigOperators
 namespace Szarek

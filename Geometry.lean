@@ -1,6 +1,10 @@
-import Definitions
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.Ring
+module
+
+public import Definitions
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.Ring
+
+@[expose] public section
 
 open scoped BigOperators
 noncomputable section

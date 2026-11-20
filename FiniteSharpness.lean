@@ -1,6 +1,10 @@
-import Definitions
-import SharpConstant
-import Mathlib.Tactic.FinCases
+module
+
+public import Definitions
+public import SharpConstant
+public import Mathlib.Tactic.FinCases
+
+@[expose] public section
 
 open scoped BigOperators
 noncomputable section

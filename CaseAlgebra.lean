@@ -1,6 +1,10 @@
-import Definitions
-import Mathlib.Tactic
-import Mathlib.Analysis.Real.Pi.Bounds
+module
+
+public import Definitions
+public import Mathlib.Tactic
+public import Mathlib.Analysis.Real.Pi.Bounds
+
+@[expose] public section
 
 namespace Szarek
 

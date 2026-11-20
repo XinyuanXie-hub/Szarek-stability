@@ -1,5 +1,9 @@
-import WeightedHaagerup
-import Mathlib.Analysis.Convex.SpecificFunctions.Basic
+module
+
+public import WeightedHaagerup
+public import Mathlib.Analysis.Convex.SpecificFunctions.Basic
+
+@[expose] public section
 
 open MeasureTheory Set
 namespace Szarek

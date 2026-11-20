@@ -1,7 +1,11 @@
-import Mathlib.Basic.Real.Basic
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.FieldSimp
-import Mathlib.Tactic.Ring
+module
+
+public import Mathlib.Basic.Real.Basic
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.FieldSimp
+public import Mathlib.Tactic.Ring
+
+@[expose] public section
 
 namespace SzarekAlgebra
 

@@ -1,8 +1,12 @@
-import GaussianComparison
-import Mathlib.Analysis.Real.Pi.Bounds
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds
-import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
-import Mathlib.MeasureTheory.Integral.IntegralEqImproper
+module
+
+public import GaussianComparison
+public import Mathlib.Analysis.Real.Pi.Bounds
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds
+public import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
+public import Mathlib.MeasureTheory.Integral.IntegralEqImproper
+
+@[expose] public section
 
 open MeasureTheory Set Filter
 open scoped Topology

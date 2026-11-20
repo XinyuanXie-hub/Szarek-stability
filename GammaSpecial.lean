@@ -1,10 +1,14 @@
-import Definitions
-import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
-import Mathlib.Analysis.SpecialFunctions.Gamma.BohrMollerup
-import Mathlib.Tactic.NormNum.RealSqrt
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.FieldSimp
-import Mathlib.Tactic.Ring
+module
+
+public import Definitions
+public import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
+public import Mathlib.Analysis.SpecialFunctions.Gamma.BohrMollerup
+public import Mathlib.Tactic.NormNum.RealSqrt
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.FieldSimp
+public import Mathlib.Tactic.Ring
+
+@[expose] public section
 
 namespace Szarek
 

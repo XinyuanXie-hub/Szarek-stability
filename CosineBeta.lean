@@ -1,9 +1,13 @@
-import Definitions
-import Mathlib.Analysis.SpecialFunctions.Gamma.Beta
-import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
-import Mathlib.MeasureTheory.Integral.IntervalIntegral.IntegrationByParts
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
-import Mathlib.Tactic
+module
+
+public import Definitions
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Beta
+public import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.IntegrationByParts
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
+public import Mathlib.Tactic
+
+@[expose] public section
 
 open Set MeasureTheory
 open scoped Interval

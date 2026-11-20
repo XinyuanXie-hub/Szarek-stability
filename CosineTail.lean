@@ -1,9 +1,13 @@
-import TrigKernel
-import CosineBeta
-import GammaBounds
-import EvenPeriodization
-import HaagerupIntegral
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds
+module
+
+public import TrigKernel
+public import CosineBeta
+public import GammaBounds
+public import EvenPeriodization
+public import HaagerupIntegral
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds
+
+@[expose] public section
 
 open Set MeasureTheory
 open scoped Interval

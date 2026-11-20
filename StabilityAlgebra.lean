@@ -1,5 +1,9 @@
-import Definitions
-import SharpConstant
+module
+
+public import Definitions
+public import SharpConstant
+
+@[expose] public section
 
 namespace Szarek
 

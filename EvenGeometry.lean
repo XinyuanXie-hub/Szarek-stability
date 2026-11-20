@@ -1,5 +1,9 @@
-import PaddedSharpness
-import Geometry
+module
+
+public import PaddedSharpness
+public import Geometry
+
+@[expose] public section
 
 open scoped BigOperators
 noncomputable section

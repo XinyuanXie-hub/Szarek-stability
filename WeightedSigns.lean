@@ -1,4 +1,8 @@
-import WeightedHaagerup
+module
+
+public import WeightedHaagerup
+
+@[expose] public section
 
 open MeasureTheory Set
 open scoped BigOperators

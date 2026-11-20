@@ -1,4 +1,8 @@
-import HaagerupLaplace
+module
+
+public import HaagerupLaplace
+
+@[expose] public section
 
 noncomputable section
 namespace Szarek

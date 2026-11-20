@@ -1,6 +1,10 @@
-import ScalarFourier
-import GaussianKernel
-import GaussianTail
+module
+
+public import ScalarFourier
+public import GaussianKernel
+public import GaussianTail
+
+@[expose] public section
 
 open MeasureTheory Set
 namespace Szarek

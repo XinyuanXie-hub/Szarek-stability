@@ -1,9 +1,13 @@
-import Definitions
-import Mathlib.Analysis.SpecialFunctions.Gamma.BohrMollerup
-import Mathlib.Analysis.Convex.Deriv
-import Mathlib.Analysis.SpecificLimits.Basic
-import Mathlib.Topology.Algebra.InfiniteSum.ENNReal
-import Mathlib.Tactic
+module
+
+public import Definitions
+public import Mathlib.Analysis.SpecialFunctions.Gamma.BohrMollerup
+public import Mathlib.Analysis.Convex.Deriv
+public import Mathlib.Analysis.SpecificLimits.Basic
+public import Mathlib.Topology.Algebra.InfiniteSum.ENNReal
+public import Mathlib.Tactic
+
+@[expose] public section
 
 open Filter Set
 open scoped Topology BigOperators

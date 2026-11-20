@@ -1,5 +1,9 @@
-import Geometry
-import Mathlib.Tactic
+module
+
+public import Geometry
+public import Mathlib.Tactic
+
+@[expose] public section
 
 open scoped BigOperators
 namespace Szarek

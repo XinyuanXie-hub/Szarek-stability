@@ -1,6 +1,10 @@
-import LemmaThree
-import WeightedHaagerup
-import HaagerupEvaluation
+module
+
+public import LemmaThree
+public import WeightedHaagerup
+public import HaagerupEvaluation
+
+@[expose] public section
 
 open MeasureTheory Set
 namespace Szarek

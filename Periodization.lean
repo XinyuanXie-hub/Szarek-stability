@@ -1,6 +1,10 @@
-import Mathlib.MeasureTheory.Integral.IntervalIntegral.Periodic
-import Mathlib.MeasureTheory.Integral.DominatedConvergence
-import Mathlib.Algebra.Group.Subgroup.ZPowers.Lemmas
+module
+
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Periodic
+public import Mathlib.MeasureTheory.Integral.DominatedConvergence
+public import Mathlib.Algebra.Group.Subgroup.ZPowers.Lemmas
+
+@[expose] public section
 
 open MeasureTheory Set
 open scoped Topology Pointwise

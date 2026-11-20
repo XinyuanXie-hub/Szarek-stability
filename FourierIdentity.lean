@@ -1,8 +1,12 @@
-import FiniteSharpness
-import Mathlib.MeasureTheory.Integral.Bochner.Set
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds
-import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
-import Mathlib.Tactic.FunProp
+module
+
+public import FiniteSharpness
+public import Mathlib.MeasureTheory.Integral.Bochner.Set
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds
+public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+public import Mathlib.Tactic.FunProp
+
+@[expose] public section
 
 open scoped BigOperators
 open MeasureTheory Set

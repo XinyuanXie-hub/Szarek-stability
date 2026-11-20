@@ -1,7 +1,11 @@
-import Periodization
-import Mathlib.MeasureTheory.Measure.Lebesgue.Integral
-import Mathlib.Topology.Algebra.InfiniteSum.NatInt
-import Mathlib.Tactic
+module
+
+public import Periodization
+public import Mathlib.MeasureTheory.Measure.Lebesgue.Integral
+public import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+public import Mathlib.Tactic
+
+@[expose] public section
 
 open MeasureTheory Set
 open scoped Topology

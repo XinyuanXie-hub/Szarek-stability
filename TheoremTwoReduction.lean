@@ -1,8 +1,12 @@
-import MomentBounds
-import CaseAlgebra
-import FangWang
-import GammaSpecial
-import Reductions
+module
+
+public import MomentBounds
+public import CaseAlgebra
+public import FangWang
+public import GammaSpecial
+public import Reductions
+
+@[expose] public section
 
 open scoped BigOperators
 namespace Szarek

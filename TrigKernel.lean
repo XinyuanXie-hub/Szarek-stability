@@ -1,8 +1,12 @@
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
-import Mathlib.Analysis.SpecialFunctions.Sqrt
-import Mathlib.Analysis.Calculus.Deriv.MeanValue
-import Mathlib.Analysis.Calculus.LHopital
-import Mathlib.Tactic
+module
+
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
+public import Mathlib.Analysis.SpecialFunctions.Sqrt
+public import Mathlib.Analysis.Calculus.Deriv.MeanValue
+public import Mathlib.Analysis.Calculus.LHopital
+public import Mathlib.Tactic
+
+@[expose] public section
 
 open Set Filter
 open scoped Topology

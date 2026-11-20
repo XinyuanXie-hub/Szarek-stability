@@ -1,4 +1,8 @@
-import CosineDifference
+module
+
+public import CosineDifference
+
+@[expose] public section
 
 open MeasureTheory Set
 namespace Szarek

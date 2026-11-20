@@ -1,6 +1,10 @@
-import Geometry
-import FiniteSharpness
-import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
+module
+
+public import Geometry
+public import FiniteSharpness
+public import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
+
+@[expose] public section
 
 open scoped BigOperators
 noncomputable section

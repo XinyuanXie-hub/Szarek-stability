@@ -1,10 +1,14 @@
-import TheoremTwoReduction
-import WeightedSigns
-import KhintchineReduction
-import HaagerupEndpoint
-import HaagerupScalar
-import EvenEquality
-import PaddedSharpness
+module
+
+public import TheoremTwoReduction
+public import WeightedSigns
+public import KhintchineReduction
+public import HaagerupEndpoint
+public import HaagerupScalar
+public import EvenEquality
+public import PaddedSharpness
+
+@[expose] public section
 
 open MeasureTheory Set
 open scoped BigOperators

@@ -1,7 +1,11 @@
-import ScalarFourier
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.Cotangent
-import Mathlib.Analysis.Calculus.SmoothSeries
-import Mathlib.Analysis.PSeries
+module
+
+public import ScalarFourier
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Cotangent
+public import Mathlib.Analysis.Calculus.SmoothSeries
+public import Mathlib.Analysis.PSeries
+
+@[expose] public section
 
 open scoped BigOperators Topology
 open Set Filter

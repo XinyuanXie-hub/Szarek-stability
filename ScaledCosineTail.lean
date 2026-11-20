@@ -1,5 +1,9 @@
-import SmallCoefficientsBase
-import GaussianTail
+module
+
+public import SmallCoefficientsBase
+public import GaussianTail
+
+@[expose] public section
 
 open MeasureTheory Set
 namespace Szarek

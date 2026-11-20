@@ -1,6 +1,10 @@
-import Geometry
-import StabilityAlgebra
-import Algebra
+module
+
+public import Geometry
+public import StabilityAlgebra
+public import Algebra
+
+@[expose] public section
 
 namespace Szarek
 

@@ -1,7 +1,11 @@
-import HaagerupAnalysis
-import HaagerupLaplace
-import Mathlib.Analysis.SpecialFunctions.Gamma.BohrMollerup
-import Mathlib.Analysis.SpecificLimits.Basic
+module
+
+public import HaagerupAnalysis
+public import HaagerupLaplace
+public import Mathlib.Analysis.SpecialFunctions.Gamma.BohrMollerup
+public import Mathlib.Analysis.SpecificLimits.Basic
+
+@[expose] public section
 
 open Filter Set MeasureTheory
 open scoped Topology

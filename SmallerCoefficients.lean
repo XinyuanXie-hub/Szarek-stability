@@ -1,6 +1,10 @@
-import SmallCoefficientsBase
-import ScaledGaussianTail
-import ScaledCosineTail
+module
+
+public import SmallCoefficientsBase
+public import ScaledGaussianTail
+public import ScaledCosineTail
+
+@[expose] public section
 
 open MeasureTheory Set
 open scoped BigOperators

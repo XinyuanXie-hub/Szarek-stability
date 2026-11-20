@@ -1,5 +1,9 @@
-import FangWang
-import EqualSigns
+module
+
+public import FangWang
+public import EqualSigns
+
+@[expose] public section
 
 open scoped BigOperators
 noncomputable section

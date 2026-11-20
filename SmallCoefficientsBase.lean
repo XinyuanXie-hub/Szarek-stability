@@ -1,7 +1,11 @@
-import WeightedHaagerup
-import LemmaThree
-import CosineGaussian
-import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+module
+
+public import WeightedHaagerup
+public import LemmaThree
+public import CosineGaussian
+public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+
+@[expose] public section
 
 open MeasureTheory Set
 open scoped BigOperators

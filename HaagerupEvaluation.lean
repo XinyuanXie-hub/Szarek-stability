@@ -1,8 +1,12 @@
-import HaagerupIntegral
-import EvenPeriodization
-import PoweredCosIntegrability
-import LocalCosineIntegral
-import CosineBeta
+module
+
+public import HaagerupIntegral
+public import EvenPeriodization
+public import PoweredCosIntegrability
+public import LocalCosineIntegral
+public import CosineBeta
+
+@[expose] public section
 
 open MeasureTheory Set
 open scoped BigOperators

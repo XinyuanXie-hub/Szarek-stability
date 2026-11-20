@@ -1,8 +1,12 @@
-import ScalarFourier
-import HaagerupAnalysis
-import HaagerupConvexity
-import Mathlib.Analysis.MeanInequalities
-import Mathlib.Analysis.Convex.Jensen
+module
+
+public import ScalarFourier
+public import HaagerupAnalysis
+public import HaagerupConvexity
+public import Mathlib.Analysis.MeanInequalities
+public import Mathlib.Analysis.Convex.Jensen
+
+@[expose] public section
 
 open MeasureTheory Set
 open scoped BigOperators

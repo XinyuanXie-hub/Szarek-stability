@@ -1,6 +1,10 @@
-import GaussianTail
-import CaseAlgebra
-import Mathlib.Tactic
+module
+
+public import GaussianTail
+public import CaseAlgebra
+public import Mathlib.Tactic
+
+@[expose] public section
 
 open MeasureTheory Set Filter
 open scoped Topology

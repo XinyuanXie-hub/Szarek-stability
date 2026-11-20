@@ -1,8 +1,12 @@
-import MainReduction
-import HaagerupEvaluation
-import LemmaThreeFinal
-import CosineTail
-import SmallerCoefficients
+module
+
+public import MainReduction
+public import HaagerupEvaluation
+public import LemmaThreeFinal
+public import CosineTail
+public import SmallerCoefficients
+
+@[expose] public section
 
 open scoped BigOperators
 noncomputable section

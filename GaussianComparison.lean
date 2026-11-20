@@ -1,6 +1,10 @@
-import CosineGaussian
-import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
-import Mathlib.MeasureTheory.Integral.Bochner.Set
+module
+
+public import CosineGaussian
+public import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Set
+
+@[expose] public section
 
 open MeasureTheory Set
 namespace Szarek

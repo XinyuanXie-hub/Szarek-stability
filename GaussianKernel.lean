@@ -1,7 +1,11 @@
-import FourierIdentity
-import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
-import Mathlib.Analysis.Calculus.Deriv.Slope
-import Mathlib.Tactic
+module
+
+public import FourierIdentity
+public import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
+public import Mathlib.Analysis.Calculus.Deriv.Slope
+public import Mathlib.Tactic
+
+@[expose] public section
 
 open MeasureTheory Set Filter
 open scoped Topology

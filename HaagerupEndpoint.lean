@@ -1,5 +1,9 @@
-import GammaBounds
-import HaagerupConvexity
+module
+
+public import GammaBounds
+public import HaagerupConvexity
+
+@[expose] public section
 
 open Filter Set
 open scoped Topology

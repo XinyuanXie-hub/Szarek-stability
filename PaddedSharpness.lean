@@ -1,4 +1,8 @@
-import FiniteSharpness
+module
+
+public import FiniteSharpness
+
+@[expose] public section
 
 open scoped BigOperators
 noncomputable section

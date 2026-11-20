@@ -1,6 +1,10 @@
-import EqualSigns
-import EvenGamma
-import EvenGeometry
+module
+
+public import EqualSigns
+public import EvenGamma
+public import EvenGeometry
+
+@[expose] public section
 
 namespace Szarek
 

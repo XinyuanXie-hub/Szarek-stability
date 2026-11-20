@@ -1,7 +1,11 @@
-import Definitions
-import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
-import Mathlib.Data.Nat.Choose.Basic
-import Mathlib.Tactic
+module
+
+public import Definitions
+public import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
+public import Mathlib.Data.Nat.Choose.Basic
+public import Mathlib.Tactic
+
+@[expose] public section
 
 open scoped Nat
 

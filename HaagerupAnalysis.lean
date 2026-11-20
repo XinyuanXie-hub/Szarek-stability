@@ -1,10 +1,16 @@
-import Definitions
-import GammaSpecial
-import Mathlib.Analysis.SpecialFunctions.Gamma.Deriv
-import Mathlib.Tactic
-import Mathlib.Analysis.Convex.Deriv
-import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.DerivHyp
+module
+
+public import Definitions
+public import GammaSpecial
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Deriv
+public import Mathlib.Tactic
+public import Mathlib.Analysis.Convex.Deriv
+public import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.DerivHyp
+
+import Mathlib.Analysis.SpecialFunctions.Sqrt
+
+@[expose] public section
 
 noncomputable section
 namespace Szarek
